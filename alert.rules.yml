@@ -1,0 +1,6 @@
+groups:
+  - name: stellarspend
+    rules:
+      - alert: ApiDown
+        expr: up{job="stellarspend-api"} == 0
+        for: 2m
