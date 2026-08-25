@@ -16,7 +16,6 @@ import { CurrencyConversionModule } from './currency-conversion/currency-convers
 import { NotificationModule } from './notification/notification.module';
 import { MailModule } from './mail/mail.module';
 import { AnalyticsModule } from './analytics/analytics.module';
-import { AnalyticsSystemModule } from './analytics-system/analytics-system.module';
 import { AdminModule } from './admin/admin.module';
 import { SettingsModule } from './settings/settings.module';
 import { AuditModule } from './audit/audit.module';
