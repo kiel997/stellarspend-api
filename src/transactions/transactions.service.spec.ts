@@ -17,7 +17,7 @@ import { CacheService } from '../cache/cache.service';
 describe('TransactionsService', () => {
   let service: TransactionsService;
   let repo: any;
-  let cacheService: CacheService;
+  
 
   const mockQueryBuilder = {
     insert: jest.fn().mockReturnThis(),
@@ -67,7 +67,7 @@ describe('TransactionsService', () => {
   }).compile();
 
     service = module.get<TransactionsService>(TransactionsService);
-    cacheService = module.get<CacheService>(CacheService);
+   
 
     // Stub the Horizon client the service constructs internally so tests
     // never make real network calls. Overridden per-test below.

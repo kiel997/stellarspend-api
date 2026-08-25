@@ -9,7 +9,6 @@ import { Repository } from 'typeorm';
 // package exports `Horizon.Server`, not a flat `Server` export.
 import { Horizon } from '@stellar/stellar-sdk';
 import { TransactionEntity } from './entities/transaction.entity';
-import { CacheModule } from '../cache/cache.module';
 import { CacheService } from '../cache/cache.service';
 
 
